@@ -388,7 +388,7 @@ export default function App() {
             
             {/* Visual glow avatar space at Left Side */}
             <div className="col-span-4 sm:col-span-5 flex justify-start order-first">
-              <div className="relative w-32 h-32 xs:w-40 xs:h-40 sm:w-64 sm:h-64 md:w-96 md:h-96 xl:w-[440px] xl:h-[440px] rounded-full group">
+              <div className="relative w-full max-w-[110px] sm:max-w-[260px] md:max-w-[360px] lg:max-w-[420px] aspect-square rounded-full group">
                 {/* Subtle premium static accent outline ring */}
                 <div 
                   style={{ borderColor: `${themeAccent}30` }} 
