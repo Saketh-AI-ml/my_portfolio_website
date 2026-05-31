@@ -1,0 +1,6 @@
+{
+  "name": "Portfolio CMS",
+  "description": "A premium recruiter-ready personal portfolio website and robust CMS with full CRUD management for projects, experiences, skills, blogs, and an AI bio generator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
