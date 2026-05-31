@@ -482,7 +482,7 @@ export default function App() {
                 
                 <a
                   href="#contact"
-                  className="px-3 py-2 sm:px-6 sm:py-3 rounded-xl sm:rounded-2xl bg-slate-900/80 text-slate-355 border border-slate-800 text-[10px] sm:text-xs font-bold hover:bg-slate-800 hover:text-white hover:-translate-y-0.5 active:scale-95 transition-all flex items-center gap-1.5 sm:gap-2"
+                  className="px-3 py-2 sm:px-6 sm:py-3 rounded-xl sm:rounded-2xl bg-slate-900/80 text-slate-300 border border-slate-800 text-[10px] sm:text-xs font-bold hover:bg-slate-800 hover:text-white hover:-translate-y-0.5 active:scale-95 transition-all flex items-center gap-1.5 sm:gap-2"
                 >
                   <LucideIcon name="MailCheck" size={13} />
                   {t.hireMe}
@@ -681,7 +681,7 @@ export default function App() {
                     <div className="w-full aspect-[16/10] bg-slate-950 overflow-hidden relative border-b border-slate-800">
                       <img src={proj.images?.[0] || ""} alt={proj.title} className="w-full h-full object-cover group-hover:scale-105 transition-all duration-500" />
                       <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
-                        <span className="text-[11px] font-bold text-white font-mono uppercase bg-indigo-650 px-2.5 py-1 rounded-lg">Explore technical details →</span>
+                        <span className="text-[11px] font-bold text-white font-mono uppercase bg-indigo-600 px-2.5 py-1 rounded-lg">Explore technical details →</span>
                       </div>
                     </div>
 
@@ -692,7 +692,7 @@ export default function App() {
                       
                       <div className="flex flex-wrap gap-1.5">
                         {proj.techStack.slice(0, 4).map(tech => (
-                          <span key={tech} className="px-2.5 py-0.5 rounded-lg text-[10px] bg-slate-950/60 border border-slate-850/50 font-mono text-slate-450">{tech}</span>
+                          <span key={tech} className="px-2.5 py-0.5 rounded-lg text-[10px] bg-slate-950/60 border border-slate-800/55 font-mono text-slate-400">{tech}</span>
                         ))}
                       </div>
                     </div>
@@ -772,7 +772,7 @@ export default function App() {
                     </div>
                     <span className="px-2 py-1 rounded bg-indigo-950 text-indigo-300 font-mono text-xs font-bold border border-indigo-900/60">{edu.field}</span>
                   </div>
-                  <p className="text-xs text-emerald-450 font-bold text-sm font-mono">{edu.grade}</p>
+                  <p className="text-xs text-emerald-400 font-bold text-sm font-mono">{edu.grade}</p>
                   
                   {edu.courses && edu.courses.length > 0 && (
                     <div className="flex flex-wrap gap-1 pt-3.5 border-t border-slate-850">
@@ -844,7 +844,7 @@ export default function App() {
                 </div>
                 
                 {/* Micro indicators */}
-                <span className="text-[11px] font-mono text-emerald-450 bg-emerald-950/50 border border-emerald-900 px-3 py-1 rounded bg-emerald-400/5 flex items-center gap-1.5 font-bold">
+                <span className="text-[11px] font-mono text-emerald-400 bg-emerald-950/50 border border-emerald-900 px-3 py-1 rounded bg-emerald-400/5 flex items-center gap-1.5 font-bold">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
                   STREAK: 14 DAYS
                 </span>
